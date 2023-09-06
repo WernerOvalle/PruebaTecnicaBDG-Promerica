@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creditCardInfo>
+    <system>
+        <name>Nombre del sistema</name>
+        <location>Localización</location>
+    </system>
+    <creditCard>
+        <cardNumber>Número de tarjeta</cardNumber>
+        <customerId>ID único de cliente</customerId>
+    </creditCard>
+</creditCardInfo>
