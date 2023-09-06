@@ -1,0 +1,11 @@
+Entidades:
+- Artículo (Código, Nombre, Tipo, Subtipo)
+- Sucursal (Nombre)
+- Inventario (CódigoArtículo, NombreSucursal, Cantidad)
+- Promoción (ID, FechaInicio, FechaFin, CostoPuntos, PrecioArtículo)
+- Canje (IDArtículo, CantidadCanjeada, PrecioArtículo, IDPromoción, Observaciones)
+
+Relaciones:
+- Artículo (1) - (N) Inventario
+- Artículo (1) - (N) Promoción
+- Promoción (1) - (N) Canje
